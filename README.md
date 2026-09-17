@@ -2,11 +2,11 @@
 
 > **Live:** [fifa-team-filter-kargos.vercel.app](https://fifa-team-filter-kargos.vercel.app)
 
-**Developer:** Aryan Sharma (B.Tech CSE AI/ML, VIT Bhopal University)
+**Developer:** Aryan Sharma
 
 ## Project Overview & Features
 
-A browser-based AR filter that randomly assigns EA FC / FIFA clubs to players via the device camera. Point the camera at 1–2 faces, tap **SPIN**, and a slot-machine reel flashes team crests before landing on a random assignment above each player's head. Used for "which team should I play with?" matchday challenges.
+A browser-based AR filter that randomly assigns FIFA clubs to players via the device camera. Point the camera at 1–2 faces, tap **SPIN**, and a slot-machine reel flashes team crests before landing on a random assignment above each player's head. Used for "which team should I play with?" matchday challenges.
 
 * **Real-Time AR Tracking:** Multi-face bounding box detection via device webcam.
 * **Interactive Filtering:** Swipeable UI chips to filter randomization pools by league or nation.
@@ -33,6 +33,7 @@ A browser-based AR filter that randomly assigns EA FC / FIFA clubs to players vi
 ```bash
 npm install
 npm run dev          # [http://127.0.0.1:5173](http://127.0.0.1:5173)
+```
 
 The app requires camera access, which needs either `localhost` or HTTPS. For mobile testing on your LAN, use a tunnel like `ngrok http 5173` or deploy to Vercel.
 
