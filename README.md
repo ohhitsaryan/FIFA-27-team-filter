@@ -2,7 +2,7 @@
 
 > **Live:** [fifa-team-filter-kargos.vercel.app](https://fifa-team-filter-kargos.vercel.app)
 
-**Developer:** Aryan Sharma (B.Tech CSE AI/ML, VIT Bhopal University)
+**Developer:** Aryan Sharma
 
 ## Project Overview & Features
 
@@ -33,6 +33,7 @@ A browser-based AR filter that randomly assigns EA FC / FIFA clubs to players vi
 ```bash
 npm install
 npm run dev          # [http://127.0.0.1:5173](http://127.0.0.1:5173)
+```
 
 The app requires camera access, which needs either `localhost` or HTTPS. For mobile testing on your LAN, use a tunnel like `ngrok http 5173` or deploy to Vercel.
 
